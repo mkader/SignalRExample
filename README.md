@@ -1,4 +1,4 @@
 # SignalRExample
 SignalR Example with ASP.NET Core API
 
-![alt text](https://github.com/mkader/ConcourseAzureBlobContainerK8s/blob/master/images/pipeline.png)              
+![alt text](https://github.com/mkader/SignalRExample/blob/master/wwwroot/img/demo.PNG)              
