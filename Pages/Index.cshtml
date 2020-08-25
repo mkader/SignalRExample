@@ -1,0 +1,75 @@
+﻿@page
+
+<div class="row">
+    <div class="column">
+        <form>
+            <div class="form-group">
+                <label for="ChatName1">Name</label>
+                <input class="form-control" placeholder="Enter your name" type="text" id="ChatName" />
+            </div>
+            <div class="form-group">
+                <label for="ChatMessage1">Message</label>
+                <input class="form-control" placeholder="Type your message" type="text" id="ChatMessage" />
+            </div>
+            <div class="form-group">
+                <input class="btn btn-primary" type="button" id="ChatButton" value="Chat" />
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col-12">         <hr />     </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <ul class="list-group" id="ChatMessagesList"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <form>
+            <div class="form-group">
+                <label for="ChartValue">Value</label>
+                <input class="form-control" placeholder="Enter a value" type="text" id="ChartValue" />
+            </div>
+            <div class="form-group">
+                <input class="btn btn-primary" type="button" id="ChartButton" value="Chart" />
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
+
+        <div id="ChartArea"> </div>
+    </div>
+</div>
+<div class="row">
+    <div class="column">
+        <form>
+            <div class="form-group">
+                <label for="ExchangeValue1">Value</label>
+                <input class="form-control" placeholder="Enter a value" type="text" id="ExchangeValue" />
+            </div>
+            <div class="form-group">
+                <input class="btn btn-primary" type="button" id="ExchangeButton" value="Exchang" />
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
+
+        <div id="ExchangeArea"> </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/chat.js"></script>
+    <script src="~/js/chart.js"></script>
+    <script src="~/js/exchange.js"></script>
+}
